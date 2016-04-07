@@ -1,0 +1,19 @@
+{
+  "name": "latest-top-hn",
+  "version": "1.0.0",
+  "description": "Listens for changes in the top rated Hacker News story and informs you of these changes on Slack.",
+  "author": "Jamesford",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^2.4.2",
+    "moment": "^2.12.0",
+    "request": "^2.70.0"
+  },
+  "engines": {
+    "node" : ">=4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesford/latest-top-hn.git"
+  },
+}
