@@ -6,12 +6,12 @@
  *
  */
 {
-  "hidePreviousStories": 6, // Length of time (in hours) for which we should track stories so they do not get broadcast if they lose top place but regain it, optional, default is 6
-  "webhook": "https://hooks.slack.com/services/some/superlongid", // Your Slack Webhook, required
-  "message": { // Slack message object, all optional
-    "username": "Latest Hacker News", // Username to be displayed when sending a message
-    "icon_emoji": ":newspaper:", // Emoji to be used as the user avatar (pick url or emoji, not both)
-    "icon_url": "http://lorempixel.com/400/400/abstract" // Url link to an image to be used as the user avatar (pick url or emoji, not both)
-    "channel": "#random" // Channel message should post to (eg. @user or #channel, or a user/channel id)
+  "hidePreviousStories": 6, /* Length of time (in hours) for which we should track stories so they do not get broadcast if they lose top place but regain it, optional, default is 6 */
+  "webhook": "https://hooks.slack.com/services/some/superlongid", /* Your Slack Webhook, required */
+  "message": { /* Slack message object, all optional */
+    "username": "Latest Hacker News", /* Username to be displayed when sending a message */
+    "icon_emoji": ":newspaper:", /* Emoji to be used as the user avatar (pick url or emoji, not both) */
+    "icon_url": "http://lorempixel.com/400/400/abstract" /* Url link to an image to be used as the user avatar (pick url or emoji, not both) */
+    "channel": "#random" /* Channel message should post to (eg. @user or #channel, or a user/channel id) */
   }
 }
